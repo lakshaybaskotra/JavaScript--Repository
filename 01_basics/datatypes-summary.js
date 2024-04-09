@@ -33,3 +33,18 @@ const myFunction = function(){
 
 
 console.log(typeof bigNumber);
+
+
+
+//************************************* */
+//STACK(primitive), HEAP(non-primitive)
+// copy of variable , reference of original value
+
+let myYoutubeName = "lakshaybaskotra"
+
+let anotherName = myYoutubeName
+anotherName= " randomshorts"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
