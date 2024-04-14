@@ -25,3 +25,9 @@ const replacedur = url.replace('%100', '-')
 console.log(replacedur);
 console.log(url.includes('lakshay'));
 console.log(gamename.split('-' ));
+
+
+let text = "Hello world!";
+let result = text.repeat(2);
+
+
