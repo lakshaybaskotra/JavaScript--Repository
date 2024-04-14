@@ -26,8 +26,18 @@ console.log(replacedur);
 console.log(url.includes('lakshay'));
 console.log(gamename.split('-' ));
 
-
+//repeat
 let text = "Hello world!";
 let result = text.repeat(2);
+
+
+//replace all , will replace the text with the text written after (,) in the replaceall string function 
+
+text = text.replaceAll("Cats","Dogs");
+text = text.replaceAll("cats","dogs");
+
+
+
+
 
 
